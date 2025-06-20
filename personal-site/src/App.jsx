@@ -4,9 +4,10 @@ import Navbar from "./components/navbar.jsx";
 
 function App() {
   return (
-    <>
-      <Navbar></Navbar>;<About></About>
-    </>
+    <div className="app-lineup">
+      <Navbar />
+      <About />
+    </div>
   );
 }
 
