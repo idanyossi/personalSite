@@ -1,0 +1,51 @@
+:root {
+  --clr-bg: rgba(255, 255, 255, 0.8);
+  --clr-border: #e5e7eb; /* light gray */
+  --clr-text: #111827; /* slate‑900 */
+  --clr-accent: #2563eb; /* blue‑600 */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  background: var(--clr-bg);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--clr-border);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+.navbar-ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0 0 0 auto;
+  padding: 0;
+}
+.navbar-li a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-li a:hover {
+  color: red;
+}
+
+.Name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 5%;
+  color: var(--clr-text);
+}
